@@ -88,9 +88,114 @@ coverImg: # 轮播图片
 ---
 
 
+---
+title: typora-vue-theme主题介绍
+date: 2018-09-07 09:25:00
+author: 赵奇
+img: /source/images/xxx.jpg
+top: true
+cover: true
+coverImg: /images/1.jpg
+password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+toc: false
+mathjax: false
+summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
+categories: Markdown
+tags:
+  - Typora
+  - Markdown
+---
+
+
 ```
 
 
+
+> npm的一些使用操作：
+
+## npm 插件安装
+
+
+
+### 查看插件
+
+```shell
+npm list
+```
+
+### 视频
+
+```shell
+npm install dplayer --save
+npm install hexo-tag-dplayer
+```
+
+如何使用：
+
+```shell
+{% dplayer "url=http://home.ustc.edu.cn/~mmmwhy/GEM.mp4"  "pic=http://home.ustc.edu.cn/~mmmwhy/GEM.jpg" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}
+```
+
+### 音乐
+
+```shell
+npm install aplayer --save
+npm install hexo-tag-aplayer
+```
+
+如何使用：
+
+```shell
+{% aplayer "HUSH" "Lasse Lindh" "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3"  "http://opj0cbfmf.bkt.clouddn.com/hush.jpg" "autoplay=false" %}
+```
+
+### 推送
+
+```shell
+npm install hexo-deployer-git --save
+```
+
+### 站点地图
+
+```shell
+npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save
+```
+
+### gulp压缩
+
+```shell
+npm install --global gulp-cli
+npm install --save-dev gulp
+npm i gulp gulp-clean-css gulp-htmlclean gulp-htmlmin gulp-imagemin gulp-uglify -S
+npm install --save-dev gulp del
+npm install --save-dev run-sequence
+npm install gulp-minify-css --save-dev
+```
+
+### 站内搜索
+
+```shell
+npm install hexo-generator-search --save
+```
+
+### 百度主动提交
+
+```shell
+npm install hexo-baidu-url-submit --save
+```
+
+### 卸载
+
+```shell
+npm uninstall <你的插件名>
+```
+
+
+
+***相关链接***
+
+- [卸载 hexo 插件](https://www.dazhuanlan.com/2019/10/12/5da110cdd9a7b/)
 
 
 

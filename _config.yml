@@ -17,6 +17,9 @@ url: http://hans1980775481.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -45,12 +48,18 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
+
 prismjs:
   enable: false
   preprocess: true
@@ -106,5 +115,10 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: https://github.com/hans1980775481/tony.github.io.git
+  repository: https://github.com/hans1980775481/hans1980775481.github.io.git
   branch: master
+
+
+search:
+  path: search.xml
+  field: post
