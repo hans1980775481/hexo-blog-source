@@ -13,6 +13,8 @@ img:
 
 ### 1. Hexo生成界面原理
 
+
+
 > 本節主要講述，Hexo怎麽生成界面的，我們寫的明明是Markdown文件爲什麽就可以變成HTML文件呢？以及MarkDown文件生成的HTML文件的對應關係是怎樣的呢？
 
 > 首先我們來看一下，Hexo的文件目錄：
@@ -39,11 +41,11 @@ img:
 
 
 
-#### 1.2.4 layout（布局）
+#### 1.2 layout（布局）
 
 ------
 
-##### **1.2.4.1 post**
+##### **1.2.1 post**
 
 当你每一次使用代码
 
@@ -81,7 +83,7 @@ hexo new page newpage
 
 
 
-##### **1.2.4.3 draft**
+##### **1.2.3 draft**
 
 `draft`是草稿的意思，也就是你如果想写文章，又不希望被看到，那么可以
 
@@ -107,7 +109,7 @@ hexo publish draft newdraft
 
 
 
-#### 1.2.3 Front-matter
+#### 1.3 Front-matter
 
 > `scaffolds：`生成文章的一些模板
 
